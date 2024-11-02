@@ -1,0 +1,21 @@
+Crawler initialized
+www.google.comhttps://en.wikipedia.org/wiki/Taj_Mahal
+https://www.tajmahal.gov.in/
+https://whc.unesco.org/en/list/252/
+https://core.unesco.org/
+https://developers.arcgis.com/javascript/latest/guide/system-requirements/index.html
+https://instagram.com/unesco/
+https://twitter.com/unesco/
+https://whc.unesco.org/en/list/252/video
+https://whc.unesco.org/en/wh-gis/
+https://www.facebook.com/unesco
+https://www.linkedin.com/company/unesco
+https://www.twitter.com/unesco
+https://www.unesco.or.jp/activities/isan/worldheritagelist/
+https://www.unesco.org
+https://www.unesco.org/en
+https://www.unesco.org/en/
+https://www.unesco.org/en/culture
+https://www.unesco.org/en/environmental-commitment-and-policy
+https://www.unesco.org/en/events-privacy-notice
+https://www.unesco.org/en/faq
