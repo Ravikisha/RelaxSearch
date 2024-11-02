@@ -1,8 +1,24 @@
+![Banner](./docs/banner.jpg)
+
 # RelaxSearch
+
+<p float="left">
+
+<img src="https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge" alt="GoLang" />
+<img src="https://img.shields.io/badge/Elasticsearch-005571?logo=Elasticsearch&logoColor=white&style=for-the-badge" alt="Elasticsearch" />
+<img src="https://img.shields.io/badge/Docker-2496ED?logo=Docker&logoColor=white&style=for-the-badge" alt="Docker" />
+<img src="https://img.shields.io/badge/REST_API-0096D8?logo=Postman&logoColor=white&style=for-the-badge" alt="REST API" />
+<img src="https://img.shields.io/badge/Full_Text_Search-00ADD8?logo=Go&logoColor=white&style=for-the-badge" alt="Full Text Search" />
+<img src="https://img.shields.io/badge/Web_Crawler-005571?logo=WebCrawler&logoColor=white&style=for-the-badge" alt="Web Crawler" />
+
+
+</p>
 
 RelaxSearch is a lightweight, demonstration-based search engine project built with Go and Elasticsearch. It comprises two main components:
 
 > Inspire by the Full Document Search in go: [Blog Here](https://medium.com/@ravikishan63392/building-a-high-performance-full-text-search-engine-in-go-f2e4ec63e643)
+
+> Also Inspired by the [Web Crawler in Cpp](https://github.com/kshru9/Web-Crawler)
 
 1. **RelaxEngine**: A web scraper using cron jobs to periodically crawl and index content.
 2. **RelaxWeb**: An API server that enables full-text search capabilities on the indexed data.
@@ -31,7 +47,7 @@ This project showcases the essentials of a search engine by scraping content fro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/RelaxSearch.git
+   git clone https://github.com/Ravikisha/RelaxSearch.git
    cd RelaxSearch
    ```
 
