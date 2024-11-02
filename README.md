@@ -16,14 +16,15 @@
 
 RelaxSearch is a lightweight, demonstration-based search engine project built with Go and Elasticsearch. It comprises two main components:
 
-> Inspire by the Full Document Search in go: [Blog Here](https://medium.com/@ravikishan63392/building-a-high-performance-full-text-search-engine-in-go-f2e4ec63e643)
-
-> Also Inspired by the [Web Crawler in Cpp](https://github.com/kshru9/Web-Crawler)
 
 1. **RelaxEngine**: A web scraper using cron jobs to periodically crawl and index content.
 2. **RelaxWeb**: An API server that enables full-text search capabilities on the indexed data.
 
 This project showcases the essentials of a search engine by scraping content from specified URLs and storing them in Elasticsearch, where they are accessible for keyword-based searches.
+
+> Inspire by the Full Document Search in go: [Blog Here](https://medium.com/@ravikishan63392/building-a-high-performance-full-text-search-engine-in-go-f2e4ec63e643)
+
+> Also Inspired by the [Web Crawler in Cpp](https://github.com/kshru9/Web-Crawler)
 
 ## Components
 
