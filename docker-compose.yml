@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.6.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - ELASTIC_USERNAME=elastic
+      - ELASTIC_PASSWORD=ravikishan
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+  relaxengine:
+    build:
+      context: ./relaxengine
+    container_name: relaxengine
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    volumes:
+      - ./relaxengine:/app
+    working_dir: /app
+    command: ["go", "run", "cmd/main.go"]
+
+  relaxweb:
+    build:
+      context: ./relaxweb
+    container_name: relaxweb
+    depends_on:
+      - elasticsearch
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+    ports:
+      - "7000:7000"
+    volumes:
+      - ./relaxweb:/app
+    working_dir: /app
+    command: ["go", "run", "main.go"]
+
+volumes:
+  es_data:
+    driver: local
