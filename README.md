@@ -98,6 +98,8 @@ RelaxSearch/
     └── search/            # Search functionality and API
 ```
 
+![Diagram](./docs/diagram.png)
+
 ## Known Issues and Improvements
 
 - **Error handling**: Current error handling can be improved for more robust operation.
